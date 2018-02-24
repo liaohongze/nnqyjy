@@ -22,11 +22,11 @@ module.exports = {
       'react-redux',
       'react-router-redux',
       'react-transition-group',
-      'react-fontawesome',
-      'react-bootstrap',
       'redux',
       'redux-thunk',
-      'isomorphic-fetch'
+      'isomorphic-fetch',
+      'react-bootstrap',
+      'react-router-bootstrap'
     ]
   },
   output: {
@@ -132,9 +132,9 @@ module.exports = {
     }),
     new ExtractTextPlugin('[name]-[hash].min.css'),
     new HtmlWebpackPlugin({
-      title: 'react-dev-frame',
-      keywords: 'react-dev-frame',
-      description: 'react-dev-frame',
+      title: '广西南宁全银教育专业提供南宁越南语培训|南宁泰语培训|南宁日语培训|韩语|缅甸语|南宁柬埔寨语|印尼语|马来语|法语|德语|意大利语|西班牙语培训|英语等外语培训',
+      keywords: '广西南宁全银教育专业提供南宁越南语培训|南宁泰语培训|南宁日语培训|韩语|缅甸语|南宁柬埔寨语|印尼语|马来语|法语|德语|意大利语|西班牙语培训|英语等外语培训',
+      description: '广西南宁全银教育专业提供南宁越南语培训|南宁泰语培训|南宁日语培训|韩语|缅甸语|南宁柬埔寨语|印尼语|马来语|法语|德语|意大利语|西班牙语培训|英语等外语培训',
       favicon: resolve(APP_PATH, 'assets/favicon.ico'),
       template: resolve(APP_PATH, 'index.tpl.html')
     })

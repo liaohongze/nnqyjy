@@ -104,9 +104,9 @@ module.exports = {
       quiet: true
     }),
     new HtmlWebpackPlugin({
-      title: 'react-dev-frame',
-      keywords: 'react-dev-frame',
-      description: 'react-dev-frame',
+      title: '全银教育',
+      keywords: '全银教育',
+      description: '全银教育',
       favicon: resolve(APP_PATH, 'assets/favicon.ico'),
       template: resolve(APP_PATH, 'index.tpl.html')
     }),

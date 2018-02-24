@@ -1,0 +1,32 @@
+.code-box-wrapper .code-box-demo {
+  padding: 0;
+}
+
+.banner-user {
+  height: 220px;
+}
+
+.banner-user-elem {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-user-elem .banner-user-title {
+  top: 40%;
+  font-size: 32px;
+}
+
+.banner-user-elem .banner-user-text {
+  top: 40%;
+}
+
+.banner-anim-elem .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
