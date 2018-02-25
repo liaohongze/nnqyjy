@@ -25,7 +25,7 @@ module.exports = {
       'redux',
       'redux-thunk',
       'isomorphic-fetch',
-      'react-bootstrap',
+      'react-bootstrap'
       'react-router-bootstrap'
     ]
   },

@@ -1,0 +1,50 @@
+$ThemeColor: #f8b139;
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 0;
+  color: #fff;
+}
+
+.contact,
+.menu {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  padding-left: 28%;
+  font-size: 16px;
+}
+
+.contact {
+  overflow: hidden;
+  background-color: rgba($color: #555, $alpha: 0.8);
+
+  li {
+    margin-right: 2%;
+
+    > i {
+      display: inline-block;
+      margin-right: 5px;
+      color: $ThemeColor;
+    }
+  }
+}
+
+.menu {
+  background-color: rgba($color: #000, $alpha: 0.6);
+}
+
+.header_logo {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  height: 100%;
+  background: url('/app/assets/logo.png') center center no-repeat;
+  background-color: $ThemeColor;
+  background-size: auto 100%;
+  border-radius: 4px;
+}
