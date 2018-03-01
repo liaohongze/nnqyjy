@@ -38,16 +38,49 @@ $ThemeColor: #f8b139;
   background-color: rgba($color: #000, $alpha: 0.6);
 
   .menu_item {
+    box-sizing: border-box;
     display: inline-block;
     padding: 6px 12px;
     white-space: nowrap;
+
+    &:hover {
+      color: $ThemeColor;
+      cursor: pointer;
+      border-bottom: 1px solid $ThemeColor;
+    }
   }
 
-  #train {
-    font-size: 16px;
-    color: #fff;
-    background-color: transparent;
-    border: 0;
+  .my_dropdown {
+    position: relative;
+
+    ul {
+      position: absolute;
+      top: 100%;
+      left: 12px;
+      display: none;
+      min-width: 100%;
+      overflow: hidden;
+      color: #000;
+      background-color: #fff;
+      border-radius: 4px;
+      outline: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    li {
+      padding: 0.3rem;
+      overflow: hidden;
+    }
+
+    &:hover {
+      color: #fff;
+      cursor: pointer;
+      border-bottom: 0;
+    }
+
+    &:hover ul {
+      display: block;
+    }
   }
 }
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import {DropdownButton, MenuItem} from 'react-bootstrap'
 import './Header.scss'
 
 export default class Header extends Component {
@@ -31,20 +30,22 @@ export default class Header extends Component {
         <div className='menu'>
           <Link to='/' className='menu_item'>首页</Link>
           <Link to='/aboutus' className='menu_item'>机构简介</Link>
-          <DropdownButton
-            bsStyle='default'
-            title='培训课程'
-            id='train'
-          >
-            <MenuItem eventKey='1'>Action</MenuItem>
-            <MenuItem eventKey='2'>Another action</MenuItem>
-            <MenuItem eventKey='3' active>
-              Active Item
-            </MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey='4'>Separated link</MenuItem>
-          </DropdownButton>
-
+          <div className='menu_item my_dropdown'>
+            <span>培训课程</span>
+            <ul>
+              <Link to='/sdf'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+              <Link to='#'><li>1</li></Link>
+            </ul>
+          </div>
           <Link to='/translate' className='menu_item'>商务翻译</Link>
           <Link to='/teachers' className='menu_item'>教师风采</Link>
           <Link to='/overseas' className='menu_item'>留学签证</Link>
