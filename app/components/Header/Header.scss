@@ -49,6 +49,60 @@ $ThemeColor: #f8b139;
     background-color: transparent;
     border: 0;
   }
+
+  .dropdown-menu > li > a {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu_flag {
+    display: inline-block;
+    width: 27px;
+    height: 18px;
+    margin-right: 6px;
+    background: url('../../assets/flags.png') no-repeat;
+    background-size: auto 100%;
+  }
+
+  .flag1 {
+    background-position: -270px 0;
+  }
+
+  .flag2 {
+    background-position: -243px 0;
+  }
+
+  .flag3 {
+    background-position: -216px 0;
+  }
+
+  .flag4 {
+    background-position: -189px 0;
+  }
+
+  .flag5 {
+    background-position: -351px 0;
+  }
+
+  .flag6 {
+    background-position: -324px 0;
+  }
+
+  .flag7 {
+    background-position: -297px 0;
+  }
+
+  .flag8 {
+    background-position: -54px 0;
+  }
+
+  .flag9 {
+    background-position: -27px 0;
+  }
+
+  .flag10 {
+    background-position: 0 0;
+  }
 }
 
 .header_logo {
@@ -56,8 +110,7 @@ $ThemeColor: #f8b139;
   top: 0;
   left: 10%;
   height: 100%;
-  background: url('/app/assets/logo.png') center center no-repeat;
-  background-color: $ThemeColor;
+  background: $ThemeColor url('/app/assets/logo.png') center center no-repeat;
   background-size: auto 100%;
   border-radius: 4px;
 }

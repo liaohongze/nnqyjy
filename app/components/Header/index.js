@@ -36,13 +36,16 @@ export default class Header extends Component {
             title='培训课程'
             id='train'
           >
-            <MenuItem eventKey='1'>Action</MenuItem>
-            <MenuItem eventKey='2'>Another action</MenuItem>
-            <MenuItem eventKey='3' active>
-              Active Item
-            </MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey='4'>Separated link</MenuItem>
+            <MenuItem eventKey='1'><em className='menu_flag flag1' />越南语</MenuItem>
+            <MenuItem eventKey='2'><em className='menu_flag flag2' />泰语</MenuItem>
+            <MenuItem eventKey='3'><em className='menu_flag flag3' />柬埔寨语</MenuItem>
+            <MenuItem eventKey='4'><em className='menu_flag flag4' />英语</MenuItem>
+            <MenuItem eventKey='5'><em className='menu_flag flag5' />日语</MenuItem>
+            <MenuItem eventKey='6'><em className='menu_flag flag6' />韩语</MenuItem>
+            <MenuItem eventKey='7'><em className='menu_flag flag7' />缅甸语</MenuItem>
+            <MenuItem eventKey='8'><em className='menu_flag flag8' />老挝语</MenuItem>
+            <MenuItem eventKey='9'><em className='menu_flag flag9' />印尼语</MenuItem>
+            <MenuItem eventKey='10'><em className='menu_flag flag10' />法语</MenuItem>
           </DropdownButton>
 
           <Link to='/translate' className='menu_item'>商务翻译</Link>
